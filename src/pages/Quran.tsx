@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Search } from 'lucide-react';
 import Navbar from '@/components/Navbar';
@@ -136,11 +135,11 @@ const Quran = () => {
         <section className="section-padding">
           <div className="container mx-auto">
             <div className="max-w-3xl mx-auto text-center mb-10">
-              <h1 className="text-3xl md:text-4xl font-serif font-bold mb-4">
+              <h1 className="text-3xl md:text-4xl font-decorative font-bold mb-4">
                 Explore the Holy Quran
               </h1>
               <div className="h-1 w-20 bg-islamic-gold mx-auto mb-6"></div>
-              <p className="text-foreground/80">
+              <p className="text-foreground/80 font-arabic">
                 Discover all 114 Surahs with Dr. Israr Ahmed's explanations
               </p>
             </div>
@@ -153,7 +152,7 @@ const Quran = () => {
                 </div>
                 <input
                   type="text"
-                  className="block w-full pl-10 pr-4 py-3 bg-secondary/50 dark:bg-white/5 backdrop-blur-sm border border-border rounded-lg focus:ring-2 focus:ring-islamic-gold/30 focus:border-islamic-gold/30 focus:outline-none transition-all"
+                  className="block w-full pl-10 pr-4 py-3 bg-secondary/50 dark:bg-white/5 backdrop-blur-sm border border-border rounded-lg focus:ring-2 focus:ring-islamic-gold/30 focus:border-islamic-gold/30 focus:outline-none transition-all font-arabic"
                   placeholder="Search by Surah number or name..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
@@ -198,7 +197,7 @@ const Quran = () => {
                 ))
               ) : (
                 <div className="col-span-full py-10 text-center">
-                  <p className="text-lg text-foreground/70">No surahs found matching "{searchTerm}"</p>
+                  <p className="text-lg text-foreground/70 font-arabic">No surahs found matching "{searchTerm}"</p>
                 </div>
               )}
             </div>
@@ -234,4 +233,3 @@ const Quran = () => {
 };
 
 export default Quran;
-

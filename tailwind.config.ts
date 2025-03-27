@@ -120,8 +120,9 @@ export default {
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
-        serif: ["Playfair Display", "serif"],
-        arabic: ["Noto Sans Arabic", "sans-serif"],
+        serif: ["Scheherazade New", "Playfair Display", "serif"],
+        arabic: ["Amiri", "Noto Sans Arabic", "serif"],
+        decorative: ["Scheherazade New", "serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

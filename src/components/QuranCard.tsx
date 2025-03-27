@@ -53,8 +53,8 @@ const QuranCard = ({
         
         <div className="space-y-2">
           <h3 className="text-xl font-arabic text-right mb-1" dir="rtl">{nameArabic}</h3>
-          <h4 className="text-sm font-medium text-right" dir="rtl">{nameUrdu}</h4>
-          <p className="text-base font-medium text-foreground">{nameEnglish}</p>
+          <h4 className="text-sm font-arabic text-right" dir="rtl">{nameUrdu}</h4>
+          <p className="text-base font-decorative text-foreground">{nameEnglish}</p>
           <p className="text-sm text-foreground/70">{totalAyats} Ayats</p>
         </div>
         
