@@ -1,4 +1,3 @@
-
 export interface Surah {
   id: number;
   surahNumber: number;
@@ -19,9 +18,10 @@ const surahs: Surah[] = [
     nameUrdu: "الفاتحہ",
     nameEnglish: "Al-Fatiha",
     totalAyats: 7,
-    duration: "24:38",
+    duration: "40:05",
     youtubeUrl: "https://www.youtube.com/watch?v=2WAFIAfL7nM",
-    pdfUrl: "#"
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/001_Surah_Al-Fatiha.pdf",
   },
   {
     id: 2,
@@ -30,9 +30,10 @@ const surahs: Surah[] = [
     nameUrdu: "البقرہ",
     nameEnglish: "Al-Baqarah",
     totalAyats: 286,
-    duration: "1:32:46",
+    duration: "10:38:52",
     youtubeUrl: "https://www.youtube.com/watch?v=h130FLc5f7w",
-    pdfUrl: "#"
+    pdfUrl:
+      "http://download3.quranurdu.com/Urdu%20Tafheem-ul-Quran%20PDF/002%20Surah%20Baqarah.pdf",
   },
   {
     id: 3,
@@ -41,9 +42,10 @@ const surahs: Surah[] = [
     nameUrdu: "آل عمران",
     nameEnglish: "Aali Imran",
     totalAyats: 200,
-    duration: "1:21:05",
+    duration: "4:09:23",
     youtubeUrl: "https://www.youtube.com/watch?v=1pah8tCC3jw",
-    pdfUrl: "#"
+    pdfUrl:
+      "http://download3.quranurdu.com/Urdu%20Tafheem-ul-Quran%20PDF/003%20Surah%20Al%20Imran.pdf",
   },
   {
     id: 4,
@@ -52,9 +54,10 @@ const surahs: Surah[] = [
     nameUrdu: "النساء",
     nameEnglish: "An-Nisa",
     totalAyats: 176,
-    duration: "4:42:15",
+    duration: "4:46:39",
     youtubeUrl: "https://www.youtube.com/watch?v=Qei4mdlV9FU",
-    pdfUrl: "#"
+    pdfUrl:
+      "http://download3.quranurdu.com/Urdu%20Tafheem-ul-Quran%20PDF/004%20Surah%20An%20Nisa.pdf",
   },
   {
     id: 5,
@@ -63,9 +66,9 @@ const surahs: Surah[] = [
     nameUrdu: "المائدہ",
     nameEnglish: "Al-Ma'idah",
     totalAyats: 120,
-    duration: "0:19",
+    duration: "4:46:39",
     youtubeUrl: "https://www.youtube.com/watch?v=mNQ132zc1zk",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 6,
@@ -76,7 +79,7 @@ const surahs: Surah[] = [
     totalAyats: 165,
     duration: "1:38:24",
     youtubeUrl: "https://www.youtube.com/watch?v=rQXsmZF2ZtA",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 7,
@@ -87,7 +90,7 @@ const surahs: Surah[] = [
     totalAyats: 206,
     duration: "1:45:32",
     youtubeUrl: "https://www.youtube.com/watch?v=Uz6UueBkp6M",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 8,
@@ -98,7 +101,7 @@ const surahs: Surah[] = [
     totalAyats: 75,
     duration: "1:03:41",
     youtubeUrl: "https://www.youtube.com/watch?v=VkgJE1X22TE",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 9,
@@ -109,7 +112,7 @@ const surahs: Surah[] = [
     totalAyats: 129,
     duration: "1:12:25",
     youtubeUrl: "https://www.youtube.com/watch?v=2DCllbQETIU",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 10,
@@ -120,7 +123,7 @@ const surahs: Surah[] = [
     totalAyats: 109,
     duration: "51:35",
     youtubeUrl: "https://www.youtube.com/watch?v=MvsTtm_pvOM",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 11,
@@ -131,7 +134,7 @@ const surahs: Surah[] = [
     totalAyats: 123,
     duration: "47:16",
     youtubeUrl: "https://www.youtube.com/watch?v=Bd-NdmYRAYc",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 12,
@@ -142,7 +145,7 @@ const surahs: Surah[] = [
     totalAyats: 111,
     duration: "53:10",
     youtubeUrl: "https://www.youtube.com/watch?v=Sj4Xl_Tx-Wk",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 13,
@@ -153,7 +156,7 @@ const surahs: Surah[] = [
     totalAyats: 43,
     duration: "39:46",
     youtubeUrl: "https://www.youtube.com/watch?v=-LOXsgWvKdo",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 14,
@@ -164,7 +167,7 @@ const surahs: Surah[] = [
     totalAyats: 52,
     duration: "42:21",
     youtubeUrl: "https://www.youtube.com/watch?v=mc-ujkAvWNI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 15,
@@ -175,7 +178,7 @@ const surahs: Surah[] = [
     totalAyats: 99,
     duration: "38:42",
     youtubeUrl: "https://www.youtube.com/watch?v=2nALhA3e8eU",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 16,
@@ -186,7 +189,7 @@ const surahs: Surah[] = [
     totalAyats: 128,
     duration: "55:16",
     youtubeUrl: "https://www.youtube.com/watch?v=g-3xBe8roZI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 17,
@@ -197,7 +200,7 @@ const surahs: Surah[] = [
     totalAyats: 111,
     duration: "52:48",
     youtubeUrl: "https://www.youtube.com/watch?v=CjzH_QELUjo",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 18,
@@ -208,7 +211,7 @@ const surahs: Surah[] = [
     totalAyats: 110,
     duration: "1:07:20",
     youtubeUrl: "https://www.youtube.com/watch?v=0u9uZR5ZrA0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 19,
@@ -219,7 +222,7 @@ const surahs: Surah[] = [
     totalAyats: 98,
     duration: "41:23",
     youtubeUrl: "https://www.youtube.com/watch?v=txmkzCqSstI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 20,
@@ -230,7 +233,7 @@ const surahs: Surah[] = [
     totalAyats: 135,
     duration: "57:53",
     youtubeUrl: "https://www.youtube.com/watch?v=9je3o5Im8Yo",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 21,
@@ -241,7 +244,7 @@ const surahs: Surah[] = [
     totalAyats: 112,
     duration: "52:28",
     youtubeUrl: "https://www.youtube.com/watch?v=Gvr5tlIPE4c",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 22,
@@ -252,7 +255,7 @@ const surahs: Surah[] = [
     totalAyats: 78,
     duration: "52:07",
     youtubeUrl: "https://www.youtube.com/watch?v=YYNaD_5Ssl0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 23,
@@ -263,7 +266,7 @@ const surahs: Surah[] = [
     totalAyats: 118,
     duration: "50:15",
     youtubeUrl: "https://www.youtube.com/watch?v=xNt4KfZdABg",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 24,
@@ -274,7 +277,7 @@ const surahs: Surah[] = [
     totalAyats: 64,
     duration: "52:18",
     youtubeUrl: "https://www.youtube.com/watch?v=q88qvnJa5uo",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 25,
@@ -285,7 +288,7 @@ const surahs: Surah[] = [
     totalAyats: 77,
     duration: "44:03",
     youtubeUrl: "https://www.youtube.com/watch?v=jpYMPrUmu5Q",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 26,
@@ -296,7 +299,7 @@ const surahs: Surah[] = [
     totalAyats: 227,
     duration: "58:54",
     youtubeUrl: "https://www.youtube.com/watch?v=GlbEc72NkRA",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 27,
@@ -307,7 +310,7 @@ const surahs: Surah[] = [
     totalAyats: 93,
     duration: "49:50",
     youtubeUrl: "https://www.youtube.com/watch?v=SKpHGNj5B4s",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 28,
@@ -318,7 +321,7 @@ const surahs: Surah[] = [
     totalAyats: 88,
     duration: "54:31",
     youtubeUrl: "https://www.youtube.com/watch?v=QEp70pwzZz0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 29,
@@ -329,7 +332,7 @@ const surahs: Surah[] = [
     totalAyats: 69,
     duration: "44:07",
     youtubeUrl: "https://www.youtube.com/watch?v=EEapQ1N6dCQ",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 30,
@@ -340,7 +343,7 @@ const surahs: Surah[] = [
     totalAyats: 60,
     duration: "40:31",
     youtubeUrl: "https://www.youtube.com/watch?v=eRsk6tNZp2E",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 31,
@@ -351,7 +354,7 @@ const surahs: Surah[] = [
     totalAyats: 34,
     duration: "26:37",
     youtubeUrl: "https://www.youtube.com/watch?v=u7BQtfRFDDI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 32,
@@ -362,7 +365,7 @@ const surahs: Surah[] = [
     totalAyats: 30,
     duration: "19:10",
     youtubeUrl: "https://www.youtube.com/watch?v=ZnMSfzueOGE",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 33,
@@ -373,7 +376,7 @@ const surahs: Surah[] = [
     totalAyats: 73,
     duration: "53:21",
     youtubeUrl: "https://www.youtube.com/watch?v=KfHYLh7hOF0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 34,
@@ -384,7 +387,7 @@ const surahs: Surah[] = [
     totalAyats: 54,
     duration: "32:27",
     youtubeUrl: "https://www.youtube.com/watch?v=qurJoVZdvdk",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 35,
@@ -395,7 +398,7 @@ const surahs: Surah[] = [
     totalAyats: 45,
     duration: "30:18",
     youtubeUrl: "https://www.youtube.com/watch?v=Ohq7pb8z3bg",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 36,
@@ -406,7 +409,7 @@ const surahs: Surah[] = [
     totalAyats: 83,
     duration: "47:15",
     youtubeUrl: "https://www.youtube.com/watch?v=BPKirN0vwZ8",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 37,
@@ -417,7 +420,7 @@ const surahs: Surah[] = [
     totalAyats: 182,
     duration: "48:24",
     youtubeUrl: "https://www.youtube.com/watch?v=9dJYuYza1V0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 38,
@@ -428,7 +431,7 @@ const surahs: Surah[] = [
     totalAyats: 88,
     duration: "36:38",
     youtubeUrl: "https://www.youtube.com/watch?v=jqA2oN4c6oA",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 39,
@@ -439,7 +442,7 @@ const surahs: Surah[] = [
     totalAyats: 75,
     duration: "46:31",
     youtubeUrl: "https://www.youtube.com/watch?v=etvYdidGw58",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 40,
@@ -450,7 +453,7 @@ const surahs: Surah[] = [
     totalAyats: 85,
     duration: "47:48",
     youtubeUrl: "https://www.youtube.com/watch?v=e66-lPTC4S0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 41,
@@ -461,7 +464,7 @@ const surahs: Surah[] = [
     totalAyats: 54,
     duration: "38:14",
     youtubeUrl: "https://www.youtube.com/watch?v=zRXjU7GpbzI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 42,
@@ -472,7 +475,7 @@ const surahs: Surah[] = [
     totalAyats: 53,
     duration: "40:22",
     youtubeUrl: "https://www.youtube.com/watch?v=IxCvAp6-wHE",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 43,
@@ -483,7 +486,7 @@ const surahs: Surah[] = [
     totalAyats: 89,
     duration: "42:13",
     youtubeUrl: "https://www.youtube.com/watch?v=gKoJAr_-qHM",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 44,
@@ -494,7 +497,7 @@ const surahs: Surah[] = [
     totalAyats: 59,
     duration: "23:36",
     youtubeUrl: "https://www.youtube.com/watch?v=gDoV-NTwq-4",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 45,
@@ -505,7 +508,7 @@ const surahs: Surah[] = [
     totalAyats: 37,
     duration: "25:51",
     youtubeUrl: "https://www.youtube.com/watch?v=aWAd7Au3rUM",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 46,
@@ -516,7 +519,7 @@ const surahs: Surah[] = [
     totalAyats: 35,
     duration: "27:40",
     youtubeUrl: "https://www.youtube.com/watch?v=Q_6UqIoJSMU",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 47,
@@ -527,7 +530,7 @@ const surahs: Surah[] = [
     totalAyats: 38,
     duration: "30:05",
     youtubeUrl: "https://www.youtube.com/watch?v=wcLgEEZ3Ggc",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 48,
@@ -538,7 +541,7 @@ const surahs: Surah[] = [
     totalAyats: 29,
     duration: "27:18",
     youtubeUrl: "https://www.youtube.com/watch?v=IWwOLq9gXc4",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 49,
@@ -549,7 +552,7 @@ const surahs: Surah[] = [
     totalAyats: 18,
     duration: "24:13",
     youtubeUrl: "https://www.youtube.com/watch?v=Kn8H3wX16kA",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 50,
@@ -560,7 +563,7 @@ const surahs: Surah[] = [
     totalAyats: 45,
     duration: "25:38",
     youtubeUrl: "https://www.youtube.com/watch?v=swJXZZWvIkI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 51,
@@ -571,7 +574,7 @@ const surahs: Surah[] = [
     totalAyats: 60,
     duration: "26:42",
     youtubeUrl: "https://www.youtube.com/watch?v=iMyZncYArXI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 52,
@@ -582,7 +585,7 @@ const surahs: Surah[] = [
     totalAyats: 49,
     duration: "21:51",
     youtubeUrl: "https://www.youtube.com/watch?v=J6yT0ZKAsMA",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 53,
@@ -593,7 +596,7 @@ const surahs: Surah[] = [
     totalAyats: 62,
     duration: "23:19",
     youtubeUrl: "https://www.youtube.com/watch?v=eEBpotTp_j8",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 54,
@@ -604,7 +607,7 @@ const surahs: Surah[] = [
     totalAyats: 55,
     duration: "22:13",
     youtubeUrl: "https://www.youtube.com/watch?v=uHHG-IbR54E",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 55,
@@ -615,7 +618,7 @@ const surahs: Surah[] = [
     totalAyats: 78,
     duration: "25:15",
     youtubeUrl: "https://www.youtube.com/watch?v=mhOS4cngC5s",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 56,
@@ -626,7 +629,7 @@ const surahs: Surah[] = [
     totalAyats: 96,
     duration: "31:20",
     youtubeUrl: "https://www.youtube.com/watch?v=BCKhfmWngxE",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 57,
@@ -637,7 +640,7 @@ const surahs: Surah[] = [
     totalAyats: 29,
     duration: "28:06",
     youtubeUrl: "https://www.youtube.com/watch?v=EBWEdTEhFJY",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 58,
@@ -648,7 +651,7 @@ const surahs: Surah[] = [
     totalAyats: 22,
     duration: "22:38",
     youtubeUrl: "https://www.youtube.com/watch?v=dsxxsU1Hk5k",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 59,
@@ -659,7 +662,7 @@ const surahs: Surah[] = [
     totalAyats: 24,
     duration: "23:08",
     youtubeUrl: "https://www.youtube.com/watch?v=rmoiBJwLixE",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 60,
@@ -670,7 +673,7 @@ const surahs: Surah[] = [
     totalAyats: 13,
     duration: "19:31",
     youtubeUrl: "https://www.youtube.com/watch?v=SsyQzEB7W3Y",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 61,
@@ -681,7 +684,7 @@ const surahs: Surah[] = [
     totalAyats: 14,
     duration: "14:20",
     youtubeUrl: "https://www.youtube.com/watch?v=ncoIUi_Wzh4",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 62,
@@ -692,7 +695,7 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "13:15",
     youtubeUrl: "https://www.youtube.com/watch?v=4IKacXNU6fI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 63,
@@ -703,7 +706,7 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "12:51",
     youtubeUrl: "https://www.youtube.com/watch?v=Q5akIuFV_B4",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 64,
@@ -714,7 +717,7 @@ const surahs: Surah[] = [
     totalAyats: 18,
     duration: "15:38",
     youtubeUrl: "https://www.youtube.com/watch?v=uLGMyN9r1YQ",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 65,
@@ -725,7 +728,7 @@ const surahs: Surah[] = [
     totalAyats: 12,
     duration: "13:49",
     youtubeUrl: "https://www.youtube.com/watch?v=4GLQfQFiXWU",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 66,
@@ -736,7 +739,7 @@ const surahs: Surah[] = [
     totalAyats: 12,
     duration: "13:47",
     youtubeUrl: "https://www.youtube.com/watch?v=hQgLqxox_2c",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 67,
@@ -747,7 +750,7 @@ const surahs: Surah[] = [
     totalAyats: 30,
     duration: "20:32",
     youtubeUrl: "https://www.youtube.com/watch?v=Bi-fwtUXr1s",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 68,
@@ -758,7 +761,7 @@ const surahs: Surah[] = [
     totalAyats: 52,
     duration: "21:19",
     youtubeUrl: "https://www.youtube.com/watch?v=7m5MPHO5uGY",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 69,
@@ -769,7 +772,7 @@ const surahs: Surah[] = [
     totalAyats: 52,
     duration: "17:09",
     youtubeUrl: "https://www.youtube.com/watch?v=6ZMb9hVAQFc",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 70,
@@ -780,7 +783,7 @@ const surahs: Surah[] = [
     totalAyats: 44,
     duration: "14:12",
     youtubeUrl: "https://www.youtube.com/watch?v=0AWXj4koQGY",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 71,
@@ -791,7 +794,7 @@ const surahs: Surah[] = [
     totalAyats: 28,
     duration: "14:22",
     youtubeUrl: "https://www.youtube.com/watch?v=YuqyY2XLcCg",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 72,
@@ -802,7 +805,7 @@ const surahs: Surah[] = [
     totalAyats: 28,
     duration: "16:45",
     youtubeUrl: "https://www.youtube.com/watch?v=nefn7qFlSNE",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 73,
@@ -813,7 +816,7 @@ const surahs: Surah[] = [
     totalAyats: 20,
     duration: "12:45",
     youtubeUrl: "https://www.youtube.com/watch?v=cp7a0uZuSPU",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 74,
@@ -824,7 +827,7 @@ const surahs: Surah[] = [
     totalAyats: 56,
     duration: "18:17",
     youtubeUrl: "https://www.youtube.com/watch?v=aDimMtFw4nM",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 75,
@@ -835,7 +838,7 @@ const surahs: Surah[] = [
     totalAyats: 40,
     duration: "12:23",
     youtubeUrl: "https://www.youtube.com/watch?v=w18e1jTkhZU",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 76,
@@ -846,7 +849,7 @@ const surahs: Surah[] = [
     totalAyats: 31,
     duration: "15:14",
     youtubeUrl: "https://www.youtube.com/watch?v=xkiOndjzeAs",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 77,
@@ -857,7 +860,7 @@ const surahs: Surah[] = [
     totalAyats: 50,
     duration: "14:53",
     youtubeUrl: "https://www.youtube.com/watch?v=eUych4A9fJ0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 78,
@@ -868,7 +871,7 @@ const surahs: Surah[] = [
     totalAyats: 40,
     duration: "14:06",
     youtubeUrl: "https://www.youtube.com/watch?v=Znqm2BT6vEE",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 79,
@@ -879,7 +882,7 @@ const surahs: Surah[] = [
     totalAyats: 46,
     duration: "14:29",
     youtubeUrl: "https://www.youtube.com/watch?v=RnEi2idTBgw",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 80,
@@ -890,7 +893,7 @@ const surahs: Surah[] = [
     totalAyats: 42,
     duration: "11:06",
     youtubeUrl: "https://www.youtube.com/watch?v=ypq74UdFymY",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 81,
@@ -901,7 +904,7 @@ const surahs: Surah[] = [
     totalAyats: 29,
     duration: "9:25",
     youtubeUrl: "https://www.youtube.com/watch?v=SMLTcCD5OeY",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 82,
@@ -912,7 +915,7 @@ const surahs: Surah[] = [
     totalAyats: 19,
     duration: "7:07",
     youtubeUrl: "https://www.youtube.com/watch?v=rTvsoHRgLFU",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 83,
@@ -923,7 +926,7 @@ const surahs: Surah[] = [
     totalAyats: 36,
     duration: "13:40",
     youtubeUrl: "https://www.youtube.com/watch?v=hfSEbpFXotM",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 84,
@@ -934,7 +937,7 @@ const surahs: Surah[] = [
     totalAyats: 25,
     duration: "9:49",
     youtubeUrl: "https://www.youtube.com/watch?v=A8Umx_mqbfQ",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 85,
@@ -945,7 +948,7 @@ const surahs: Surah[] = [
     totalAyats: 22,
     duration: "11:37",
     youtubeUrl: "https://www.youtube.com/watch?v=cm7bjeFQCbk",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 86,
@@ -956,7 +959,7 @@ const surahs: Surah[] = [
     totalAyats: 17,
     duration: "7:16",
     youtubeUrl: "https://www.youtube.com/watch?v=O_hc_MQOHNg",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 87,
@@ -967,7 +970,7 @@ const surahs: Surah[] = [
     totalAyats: 19,
     duration: "8:12",
     youtubeUrl: "https://www.youtube.com/watch?v=PeKhqvIP05I",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 88,
@@ -978,7 +981,7 @@ const surahs: Surah[] = [
     totalAyats: 26,
     duration: "10:04",
     youtubeUrl: "https://www.youtube.com/watch?v=mLr2GAgXf5Q",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 89,
@@ -989,7 +992,7 @@ const surahs: Surah[] = [
     totalAyats: 30,
     duration: "13:26",
     youtubeUrl: "https://www.youtube.com/watch?v=ZHhtiSsBVYg",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 90,
@@ -1000,7 +1003,7 @@ const surahs: Surah[] = [
     totalAyats: 20,
     duration: "9:04",
     youtubeUrl: "https://www.youtube.com/watch?v=Ty6xPyLi3sk",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 91,
@@ -1011,7 +1014,7 @@ const surahs: Surah[] = [
     totalAyats: 15,
     duration: "8:00",
     youtubeUrl: "https://www.youtube.com/watch?v=83ud165uejs",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 92,
@@ -1022,7 +1025,7 @@ const surahs: Surah[] = [
     totalAyats: 21,
     duration: "9:42",
     youtubeUrl: "https://www.youtube.com/watch?v=GpiaeKTS8RM",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 93,
@@ -1033,7 +1036,7 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "6:52",
     youtubeUrl: "https://www.youtube.com/watch?v=-2l7a6N9Ve4",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 94,
@@ -1044,7 +1047,7 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "4:52",
     youtubeUrl: "https://www.youtube.com/watch?v=48Y-1LmNQfI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 95,
@@ -1055,7 +1058,7 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "5:23",
     youtubeUrl: "https://www.youtube.com/watch?v=sEiRS6fKoSk",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 96,
@@ -1066,7 +1069,7 @@ const surahs: Surah[] = [
     totalAyats: 19,
     duration: "9:20",
     youtubeUrl: "https://www.youtube.com/watch?v=qnV9eB00IOo",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 97,
@@ -1077,7 +1080,7 @@ const surahs: Surah[] = [
     totalAyats: 5,
     duration: "4:59",
     youtubeUrl: "https://www.youtube.com/watch?v=pCEeQFIxAIw",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 98,
@@ -1088,7 +1091,7 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "8:03",
     youtubeUrl: "https://www.youtube.com/watch?v=CQFCnWmJmtE",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 99,
@@ -1099,7 +1102,7 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "5:31",
     youtubeUrl: "https://www.youtube.com/watch?v=84JrV_usez0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 100,
@@ -1110,7 +1113,7 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "5:56",
     youtubeUrl: "https://www.youtube.com/watch?v=9zUYx-54KSI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 101,
@@ -1121,7 +1124,7 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "5:29",
     youtubeUrl: "https://www.youtube.com/watch?v=uTNz_utO8nI",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 102,
@@ -1132,7 +1135,7 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "5:12",
     youtubeUrl: "https://www.youtube.com/watch?v=HPZruubeD6k",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 103,
@@ -1143,7 +1146,7 @@ const surahs: Surah[] = [
     totalAyats: 3,
     duration: "3:55",
     youtubeUrl: "https://www.youtube.com/watch?v=kvzdyKT7phk",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 104,
@@ -1154,7 +1157,7 @@ const surahs: Surah[] = [
     totalAyats: 9,
     duration: "5:37",
     youtubeUrl: "https://www.youtube.com/watch?v=dSsJ0oCOhR8",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 105,
@@ -1165,7 +1168,7 @@ const surahs: Surah[] = [
     totalAyats: 5,
     duration: "4:23",
     youtubeUrl: "https://www.youtube.com/watch?v=7GuqkBfjen0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 106,
@@ -1176,7 +1179,7 @@ const surahs: Surah[] = [
     totalAyats: 4,
     duration: "3:58",
     youtubeUrl: "https://www.youtube.com/watch?v=4j4P520Kous",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 107,
@@ -1187,7 +1190,7 @@ const surahs: Surah[] = [
     totalAyats: 7,
     duration: "4:46",
     youtubeUrl: "https://www.youtube.com/watch?v=5xk9X832Vqo",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 108,
@@ -1198,7 +1201,7 @@ const surahs: Surah[] = [
     totalAyats: 3,
     duration: "3:23",
     youtubeUrl: "https://www.youtube.com/watch?v=7UPzG-uTgYY",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 109,
@@ -1209,7 +1212,7 @@ const surahs: Surah[] = [
     totalAyats: 6,
     duration: "4:33",
     youtubeUrl: "https://www.youtube.com/watch?v=QLAv3-U3TY0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 110,
@@ -1220,7 +1223,7 @@ const surahs: Surah[] = [
     totalAyats: 3,
     duration: "3:36",
     youtubeUrl: "https://www.youtube.com/watch?v=oYfbf3sxxGw",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 111,
@@ -1231,7 +1234,7 @@ const surahs: Surah[] = [
     totalAyats: 5,
     duration: "4:17",
     youtubeUrl: "https://www.youtube.com/watch?v=HmCnrDuv1m0",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 112,
@@ -1242,7 +1245,7 @@ const surahs: Surah[] = [
     totalAyats: 4,
     duration: "3:52",
     youtubeUrl: "https://www.youtube.com/watch?v=FZsr1xtgj0k",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 113,
@@ -1253,7 +1256,7 @@ const surahs: Surah[] = [
     totalAyats: 5,
     duration: "3:41",
     youtubeUrl: "https://www.youtube.com/watch?v=uaItRZob6Zg",
-    pdfUrl: "#"
+    pdfUrl: "#",
   },
   {
     id: 114,
@@ -1264,9 +1267,8 @@ const surahs: Surah[] = [
     totalAyats: 6,
     duration: "3:49",
     youtubeUrl: "https://www.youtube.com/watch?v=UjLZLt3A6OE",
-    pdfUrl: "#"
-  }
+    pdfUrl: "#",
+  },
 ];
 
 export default surahs;
-

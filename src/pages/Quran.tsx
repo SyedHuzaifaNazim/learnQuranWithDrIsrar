@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import { Search } from 'lucide-react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import QuranCard from '@/components/QuranCard';
-import surahs from '@/data/surahs';
+import { useState, useEffect } from "react";
+import { Search } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import QuranCard from "@/components/QuranCard";
+import surahs from "@/data/surahs";
 import {
   Pagination,
   PaginationContent,
@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/pagination";
 
 const Quran = () => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
   const [filteredSurahs, setFilteredSurahs] = useState(surahs);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
@@ -31,7 +31,7 @@ const Quran = () => {
   }, []);
 
   useEffect(() => {
-    if (searchTerm.trim() === '') {
+    if (searchTerm.trim() === "") {
       setFilteredSurahs(surahs);
       setCurrentPage(1);
       return;
@@ -53,7 +53,10 @@ const Quran = () => {
   // Get current surahs for pagination
   const indexOfLastSurah = currentPage * surahsPerPage;
   const indexOfFirstSurah = indexOfLastSurah - surahsPerPage;
-  const currentSurahs = filteredSurahs.slice(indexOfFirstSurah, indexOfLastSurah);
+  const currentSurahs = filteredSurahs.slice(
+    indexOfFirstSurah,
+    indexOfLastSurah
+  );
   const totalPages = Math.ceil(filteredSurahs.length / surahsPerPage);
 
   // Change page
@@ -65,19 +68,19 @@ const Quran = () => {
   // Generate pagination items
   const renderPaginationItems = () => {
     const items = [];
-    
+
     // Always show first page
     items.push(
       <PaginationItem key="first">
-        <PaginationLink 
-          isActive={currentPage === 1} 
+        <PaginationLink
+          isActive={currentPage === 1}
           onClick={() => paginate(1)}
         >
           1
         </PaginationLink>
       </PaginationItem>
     );
-    
+
     // Show ellipsis if needed
     if (currentPage > 3) {
       items.push(
@@ -86,14 +89,18 @@ const Quran = () => {
         </PaginationItem>
       );
     }
-    
+
     // Show pages around current page
-    for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+    for (
+      let i = Math.max(2, currentPage - 1);
+      i <= Math.min(totalPages - 1, currentPage + 1);
+      i++
+    ) {
       if (i === 1 || i === totalPages) continue; // Skip first and last as they're always shown
       items.push(
         <PaginationItem key={i}>
-          <PaginationLink 
-            isActive={currentPage === i} 
+          <PaginationLink
+            isActive={currentPage === i}
             onClick={() => paginate(i)}
           >
             {i}
@@ -101,7 +108,7 @@ const Quran = () => {
         </PaginationItem>
       );
     }
-    
+
     // Show ellipsis if needed
     if (currentPage < totalPages - 2) {
       items.push(
@@ -110,13 +117,13 @@ const Quran = () => {
         </PaginationItem>
       );
     }
-    
+
     // Always show last page if there's more than one page
     if (totalPages > 1) {
       items.push(
         <PaginationItem key="last">
-          <PaginationLink 
-            isActive={currentPage === totalPages} 
+          <PaginationLink
+            isActive={currentPage === totalPages}
             onClick={() => paginate(totalPages)}
           >
             {totalPages}
@@ -124,7 +131,7 @@ const Quran = () => {
         </PaginationItem>
       );
     }
-    
+
     return items;
   };
 
@@ -147,9 +154,9 @@ const Quran = () => {
             {/* Search Bar */}
             <div className="max-w-xl mx-auto mb-10">
               <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Search className="h-5 w-5 text-foreground/50" />
-                </div>
+                {/* <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <MagnifyingGlassIcon className="h-5 w-5 text-foreground/50" />
+                </div> */}
                 <input
                   type="text"
                   className="block w-full pl-10 pr-4 py-3 bg-secondary/50 dark:bg-white/5 backdrop-blur-sm border border-border rounded-lg focus:ring-2 focus:ring-islamic-gold/30 focus:border-islamic-gold/30 focus:outline-none transition-all font-arabic"
@@ -197,11 +204,13 @@ const Quran = () => {
                 ))
               ) : (
                 <div className="col-span-full py-10 text-center">
-                  <p className="text-lg text-foreground/70 font-arabic">No surahs found matching "{searchTerm}"</p>
+                  <p className="text-lg text-foreground/70">
+                    No surahs found matching "{searchTerm}"
+                  </p>
                 </div>
               )}
             </div>
-            
+
             {/* Pagination */}
             {!isLoading && filteredSurahs.length > surahsPerPage && (
               <div className="mt-10">
@@ -209,15 +218,19 @@ const Quran = () => {
                   <PaginationContent>
                     {currentPage > 1 && (
                       <PaginationItem>
-                        <PaginationPrevious onClick={() => paginate(currentPage - 1)} />
+                        <PaginationPrevious
+                          onClick={() => paginate(currentPage - 1)}
+                        />
                       </PaginationItem>
                     )}
-                    
+
                     {renderPaginationItems()}
-                    
+
                     {currentPage < totalPages && (
                       <PaginationItem>
-                        <PaginationNext onClick={() => paginate(currentPage + 1)} />
+                        <PaginationNext
+                          onClick={() => paginate(currentPage + 1)}
+                        />
                       </PaginationItem>
                     )}
                   </PaginationContent>
