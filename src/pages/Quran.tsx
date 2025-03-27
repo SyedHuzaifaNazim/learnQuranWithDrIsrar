@@ -5,11 +5,22 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import QuranCard from '@/components/QuranCard';
 import surahs from '@/data/surahs';
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 
 const Quran = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredSurahs, setFilteredSurahs] = useState(surahs);
   const [isLoading, setIsLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const surahsPerPage = 16;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,6 +34,7 @@ const Quran = () => {
   useEffect(() => {
     if (searchTerm.trim() === '') {
       setFilteredSurahs(surahs);
+      setCurrentPage(1);
       return;
     }
 
@@ -36,7 +48,86 @@ const Quran = () => {
     );
 
     setFilteredSurahs(filtered);
+    setCurrentPage(1);
   }, [searchTerm]);
+
+  // Get current surahs for pagination
+  const indexOfLastSurah = currentPage * surahsPerPage;
+  const indexOfFirstSurah = indexOfLastSurah - surahsPerPage;
+  const currentSurahs = filteredSurahs.slice(indexOfFirstSurah, indexOfLastSurah);
+  const totalPages = Math.ceil(filteredSurahs.length / surahsPerPage);
+
+  // Change page
+  const paginate = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo(0, 0);
+  };
+
+  // Generate pagination items
+  const renderPaginationItems = () => {
+    const items = [];
+    
+    // Always show first page
+    items.push(
+      <PaginationItem key="first">
+        <PaginationLink 
+          isActive={currentPage === 1} 
+          onClick={() => paginate(1)}
+        >
+          1
+        </PaginationLink>
+      </PaginationItem>
+    );
+    
+    // Show ellipsis if needed
+    if (currentPage > 3) {
+      items.push(
+        <PaginationItem key="ellipsis1">
+          <PaginationEllipsis />
+        </PaginationItem>
+      );
+    }
+    
+    // Show pages around current page
+    for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+      if (i === 1 || i === totalPages) continue; // Skip first and last as they're always shown
+      items.push(
+        <PaginationItem key={i}>
+          <PaginationLink 
+            isActive={currentPage === i} 
+            onClick={() => paginate(i)}
+          >
+            {i}
+          </PaginationLink>
+        </PaginationItem>
+      );
+    }
+    
+    // Show ellipsis if needed
+    if (currentPage < totalPages - 2) {
+      items.push(
+        <PaginationItem key="ellipsis2">
+          <PaginationEllipsis />
+        </PaginationItem>
+      );
+    }
+    
+    // Always show last page if there's more than one page
+    if (totalPages > 1) {
+      items.push(
+        <PaginationItem key="last">
+          <PaginationLink 
+            isActive={currentPage === totalPages} 
+            onClick={() => paginate(totalPages)}
+          >
+            {totalPages}
+          </PaginationLink>
+        </PaginationItem>
+      );
+    }
+    
+    return items;
+  };
 
   return (
     <>
@@ -93,7 +184,7 @@ const Quran = () => {
                   </div>
                 ))
               ) : filteredSurahs.length > 0 ? (
-                filteredSurahs.map((surah) => (
+                currentSurahs.map((surah) => (
                   <QuranCard
                     key={surah.id}
                     id={surah.id}
@@ -111,6 +202,29 @@ const Quran = () => {
                 </div>
               )}
             </div>
+            
+            {/* Pagination */}
+            {!isLoading && filteredSurahs.length > surahsPerPage && (
+              <div className="mt-10">
+                <Pagination>
+                  <PaginationContent>
+                    {currentPage > 1 && (
+                      <PaginationItem>
+                        <PaginationPrevious onClick={() => paginate(currentPage - 1)} />
+                      </PaginationItem>
+                    )}
+                    
+                    {renderPaginationItems()}
+                    
+                    {currentPage < totalPages && (
+                      <PaginationItem>
+                        <PaginationNext onClick={() => paginate(currentPage + 1)} />
+                      </PaginationItem>
+                    )}
+                  </PaginationContent>
+                </Pagination>
+              </div>
+            )}
           </div>
         </section>
       </main>
@@ -120,3 +234,4 @@ const Quran = () => {
 };
 
 export default Quran;
+
