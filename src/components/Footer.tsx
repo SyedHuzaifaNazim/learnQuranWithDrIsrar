@@ -84,14 +84,6 @@ const Footer = () => {
                   Dua
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/"
-                  className="text-sm text-foreground/80 hover:text-islamic-gold transition-colors"
-                >
-                  About Dr. Israr
-                </Link>
-              </li>
             </ul>
           </div>
 

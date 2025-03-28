@@ -33,7 +33,6 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "Quran", path: "/quran" },
     { name: "Books", path: "/books" },
-    { name: "Dua", path: "/dua" },
   ];
 
   return (

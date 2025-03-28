@@ -8,6 +8,7 @@ import Quran from "./pages/Quran";
 import SurahDetail from "./pages/SurahDetail";
 import NotFound from "./pages/NotFound";
 import Books from "./pages/Books";
+import books from "./data/books";
 
 const queryClient = new QueryClient();
 
@@ -21,8 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/quran" element={<Quran />} />
           <Route path="/surah/:id" element={<SurahDetail />} />
-          <Route path="/books" element={<Books />} />
-          <Route path="/dua" element={<NotFound />} />
+          <Route path="/books" element={<Books books={books} />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
