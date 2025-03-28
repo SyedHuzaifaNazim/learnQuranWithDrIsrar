@@ -75,15 +75,15 @@ const SurahDetail = () => {
             <div className="flex flex-col md:flex-row gap-6">
               <div className="w-full md:w-8/12 lg:w-9/12">
                 {isLoading ? (
-                  <div className="rounded-xl bg-secondary/70 dark:bg-white/5 border border-border p-2 sm:p-6 animate-pulse">
+                  <div className="rounded-xl bg-secondary dark:bg-white border border-border p-2 sm:p-6 animate-pulse">
                     <div className="h-8 w-2/3 bg-secondary rounded mb-4"></div>
                     <div className="h-4 w-1/3 bg-secondary rounded mb-8"></div>
                     <div className="aspect-video bg-secondary rounded"></div>
                   </div>
                 ) : currentSurah ? (
-                  <div className="bg-white/80 dark:bg-black/30 backdrop-blur-sm border border-border rounded-xl overflow-hidden shadow-md">
+                  <div className="bg-white dark:bg-black border border-border rounded-xl overflow-hidden shadow-md">
                     <div className="p-6">
-                      <div className="flex flex-col sm:flex-row  items-center justify-between mb-4">
+                      <div className="flex flex-col sm:flex-row items-center justify-between mb-4">
                         <div>
                           <h1 className="text-2xl md:text-3xl font-serif font-bold">
                             Surah {currentSurah.nameEnglish}
@@ -159,7 +159,7 @@ const SurahDetail = () => {
                     </div>
                   </div>
                 ) : (
-                  <div className="bg-white/80 dark:bg-black/30 backdrop-blur-sm border border-border rounded-xl p-8 text-center">
+                  <div className="bg-white dark:bg-black border border-border rounded-xl p-8 text-center">
                     <h2 className="text-xl font-medium mb-4">
                       Surah not found
                     </h2>
