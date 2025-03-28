@@ -68,7 +68,8 @@ const surahs: Surah[] = [
     totalAyats: 120,
     duration: "2:58:38",
     youtubeUrl: "https://www.youtube.com/watch?v=mNQ132zc1zk",
-    pdfUrl: "#",
+    pdfUrl:
+      "http://download3.quranurdu.com/Urdu%20Tafheem-ul-Quran%20PDF/005%20Surah%20Al%20Maidah.pdf",
   },
   {
     id: 6,
@@ -79,7 +80,8 @@ const surahs: Surah[] = [
     totalAyats: 165,
     duration: "3:45:39",
     youtubeUrl: "https://www.youtube.com/watch?v=rQXsmZF2ZtA",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/006_Surah_Al-Anaam.pdf",
   },
   {
     id: 7,
@@ -90,7 +92,8 @@ const surahs: Surah[] = [
     totalAyats: 206,
     duration: "4:56:44",
     youtubeUrl: "https://www.youtube.com/watch?v=Uz6UueBkp6M",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/007_Surah_Al-Araf.pdf",
   },
   {
     id: 8,
@@ -101,7 +104,8 @@ const surahs: Surah[] = [
     totalAyats: 75,
     duration: "1:57:52",
     youtubeUrl: "https://www.youtube.com/watch?v=VkgJE1X22TE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/008_Surah_Al-Anfal.pdf",
   },
   {
     id: 9,
@@ -112,7 +116,8 @@ const surahs: Surah[] = [
     totalAyats: 129,
     duration: "2:59:00",
     youtubeUrl: "https://www.youtube.com/watch?v=2DCllbQETIU",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/008_Surah_Al-Anfal.pdf",
   },
   {
     id: 10,
@@ -123,7 +128,8 @@ const surahs: Surah[] = [
     totalAyats: 109,
     duration: "1:36:27",
     youtubeUrl: "https://www.youtube.com/watch?v=MvsTtm_pvOM",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/010_Surah_Yunus.pdf",
   },
   {
     id: 11,
@@ -134,7 +140,8 @@ const surahs: Surah[] = [
     totalAyats: 123,
     duration: "1:50:43",
     youtubeUrl: "https://www.youtube.com/watch?v=Bd-NdmYRAYc",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/011_Surah_Hud.pdf",
   },
   {
     id: 12,
@@ -145,7 +152,8 @@ const surahs: Surah[] = [
     totalAyats: 111,
     duration: "1:39:53",
     youtubeUrl: "https://www.youtube.com/watch?v=Sj4Xl_Tx-Wk",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/012_Surah_Yusuf.pdf",
   },
   {
     id: 13,
@@ -156,7 +164,8 @@ const surahs: Surah[] = [
     totalAyats: 43,
     duration: "42:20",
     youtubeUrl: "https://www.youtube.com/watch?v=-LOXsgWvKdo",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/013_Surah_Al-Raad.pdf",
   },
   {
     id: 14,
@@ -167,7 +176,8 @@ const surahs: Surah[] = [
     totalAyats: 52,
     duration: "55:30",
     youtubeUrl: "https://www.youtube.com/watch?v=mc-ujkAvWNI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/014_Surah%20Al%20Ibrahim.pdf",
   },
   {
     id: 15,
@@ -178,7 +188,8 @@ const surahs: Surah[] = [
     totalAyats: 99,
     duration: "1:12:33",
     youtubeUrl: "https://www.youtube.com/watch?v=2nALhA3e8eU",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/015_Surah%20Al%20Hijr.pdf",
   },
   {
     id: 16,
@@ -189,7 +200,8 @@ const surahs: Surah[] = [
     totalAyats: 128,
     duration: "1:59:05",
     youtubeUrl: "https://www.youtube.com/watch?v=g-3xBe8roZI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/016_Surah%20An%20Nahl.pdf",
   },
   {
     id: 17,
@@ -200,7 +212,8 @@ const surahs: Surah[] = [
     totalAyats: 111,
     duration: "2:18:49",
     youtubeUrl: "https://www.youtube.com/watch?v=CjzH_QELUjo",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/017_Surah%20Al%20Bani%20Israel.pdf",
   },
   {
     id: 18,
@@ -211,7 +224,8 @@ const surahs: Surah[] = [
     totalAyats: 110,
     duration: "2:15:20",
     youtubeUrl: "https://www.youtube.com/watch?v=0u9uZR5ZrA0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/018_Surah_Al-Kahaf.pdf",
   },
   {
     id: 19,
@@ -222,7 +236,8 @@ const surahs: Surah[] = [
     totalAyats: 98,
     duration: "1:08:04",
     youtubeUrl: "https://www.youtube.com/watch?v=txmkzCqSstI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/019_Surah_Al-Maryam.pdf",
   },
   {
     id: 20,
@@ -233,7 +248,8 @@ const surahs: Surah[] = [
     totalAyats: 135,
     duration: "1:10:10",
     youtubeUrl: "https://www.youtube.com/watch?v=9je3o5Im8Yo",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/020_Surah_Al-Taha.pdf",
   },
   {
     id: 21,
@@ -244,7 +260,8 @@ const surahs: Surah[] = [
     totalAyats: 112,
     duration: "1:21:00",
     youtubeUrl: "https://www.youtube.com/watch?v=Gvr5tlIPE4c",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/021_Surah_Al-Anbia.pdf",
   },
   {
     id: 22,
@@ -255,7 +272,8 @@ const surahs: Surah[] = [
     totalAyats: 78,
     duration: "1:44:22",
     youtubeUrl: "https://www.youtube.com/watch?v=YYNaD_5Ssl0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/022_Surah_Al-Hajj.pdf",
   },
   {
     id: 23,
@@ -266,7 +284,8 @@ const surahs: Surah[] = [
     totalAyats: 118,
     duration: "1:04:40",
     youtubeUrl: "https://www.youtube.com/watch?v=xNt4KfZdABg",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/023_Surah_Al-Mominoon.pdf",
   },
   {
     id: 24,
@@ -277,7 +296,8 @@ const surahs: Surah[] = [
     totalAyats: 64,
     duration: "1:41:12",
     youtubeUrl: "https://www.youtube.com/watch?v=q88qvnJa5uo",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/024_Surah_Al-Noor.pdf",
   },
   {
     id: 25,
@@ -288,7 +308,8 @@ const surahs: Surah[] = [
     totalAyats: 77,
     duration: "1:07:05",
     youtubeUrl: "https://www.youtube.com/watch?v=jpYMPrUmu5Q",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/025_Surah_Al-Furquan.pdf",
   },
   {
     id: 26,
@@ -299,7 +320,8 @@ const surahs: Surah[] = [
     totalAyats: 227,
     duration: "1:03:18",
     youtubeUrl: "https://www.youtube.com/watch?v=GlbEc72NkRA",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/026_Surah_Al-Shuara.pdf",
   },
   {
     id: 27,
@@ -310,7 +332,8 @@ const surahs: Surah[] = [
     totalAyats: 93,
     duration: "56:08",
     youtubeUrl: "https://www.youtube.com/watch?v=SKpHGNj5B4s",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/027_Surah_Al-Naml.pdf",
   },
   {
     id: 28,
@@ -321,7 +344,8 @@ const surahs: Surah[] = [
     totalAyats: 88,
     duration: "1:39:11",
     youtubeUrl: "https://www.youtube.com/watch?v=QEp70pwzZz0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/028_Surah_Al-Qasas.pdf",
   },
   {
     id: 29,
@@ -332,7 +356,8 @@ const surahs: Surah[] = [
     totalAyats: 69,
     duration: "1:13:29",
     youtubeUrl: "https://www.youtube.com/watch?v=EEapQ1N6dCQ",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/029_Surah_Al-Ankabut.pdf",
   },
   {
     id: 30,
@@ -343,7 +368,8 @@ const surahs: Surah[] = [
     totalAyats: 60,
     duration: "47:44",
     youtubeUrl: "https://www.youtube.com/watch?v=eRsk6tNZp2E",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/030_Surah_Al-Rum.pdf",
   },
   {
     id: 31,
@@ -354,7 +380,8 @@ const surahs: Surah[] = [
     totalAyats: 34,
     duration: "43:31",
     youtubeUrl: "https://www.youtube.com/watch?v=u7BQtfRFDDI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/031_Surah_Luqman.pdf",
   },
   {
     id: 32,
@@ -365,7 +392,8 @@ const surahs: Surah[] = [
     totalAyats: 30,
     duration: "21:56",
     youtubeUrl: "https://www.youtube.com/watch?v=ZnMSfzueOGE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/032_Surah_Al-Sajda.pdf",
   },
   {
     id: 33,
@@ -376,7 +404,8 @@ const surahs: Surah[] = [
     totalAyats: 73,
     duration: "1:59:01",
     youtubeUrl: "https://www.youtube.com/watch?v=KfHYLh7hOF0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/033_Surah_Al-Ahzab.pdf",
   },
   {
     id: 34,
@@ -387,7 +416,8 @@ const surahs: Surah[] = [
     totalAyats: 54,
     duration: "50:11",
     youtubeUrl: "https://www.youtube.com/watch?v=qurJoVZdvdk",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/034_Surah_Saba.pdf",
   },
   {
     id: 35,
@@ -398,7 +428,8 @@ const surahs: Surah[] = [
     totalAyats: 45,
     duration: "37:07",
     youtubeUrl: "https://www.youtube.com/watch?v=Ohq7pb8z3bg",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/035_Surah_Fatir.pdf",
   },
   {
     id: 36,
@@ -409,7 +440,8 @@ const surahs: Surah[] = [
     totalAyats: 83,
     duration: "41:43",
     youtubeUrl: "https://www.youtube.com/watch?v=BPKirN0vwZ8",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/036_Surah_Yasin.pdf",
   },
   {
     id: 37,
@@ -420,7 +452,8 @@ const surahs: Surah[] = [
     totalAyats: 182,
     duration: "1:07:36",
     youtubeUrl: "https://www.youtube.com/watch?v=9dJYuYza1V0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/037_Surah_Al-Saffat.pdf",
   },
   {
     id: 38,
@@ -431,7 +464,8 @@ const surahs: Surah[] = [
     totalAyats: 88,
     duration: "58:05",
     youtubeUrl: "https://www.youtube.com/watch?v=jqA2oN4c6oA",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/038_Surah_Al-Sad.pdf",
   },
   {
     id: 39,
@@ -442,7 +476,8 @@ const surahs: Surah[] = [
     totalAyats: 75,
     duration: "1:19:52",
     youtubeUrl: "https://www.youtube.com/watch?v=etvYdidGw58",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/039_Surah_Al-Zumar.pdf",
   },
   {
     id: 40,
@@ -453,7 +488,8 @@ const surahs: Surah[] = [
     totalAyats: 85,
     duration: "1:05:30",
     youtubeUrl: "https://www.youtube.com/watch?v=e66-lPTC4S0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/040_Surah_Al-Momin.pdf",
   },
   {
     id: 41,
@@ -464,7 +500,8 @@ const surahs: Surah[] = [
     totalAyats: 54,
     duration: "1:09:12",
     youtubeUrl: "https://www.youtube.com/watch?v=zRXjU7GpbzI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/041_Surah_Hameem%20Al-Sajda.pdf",
   },
   {
     id: 42,
@@ -475,7 +512,8 @@ const surahs: Surah[] = [
     totalAyats: 53,
     duration: "1:10:11",
     youtubeUrl: "https://www.youtube.com/watch?v=IxCvAp6-wHE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/042_Surah_Al-Shura.pdf",
   },
   {
     id: 43,
@@ -486,7 +524,8 @@ const surahs: Surah[] = [
     totalAyats: 89,
     duration: "39:55",
     youtubeUrl: "https://www.youtube.com/watch?v=gKoJAr_-qHM",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/043_Surah_Al-Zukhruf.pdf",
   },
   {
     id: 44,
@@ -497,7 +536,8 @@ const surahs: Surah[] = [
     totalAyats: 59,
     duration: "28:15",
     youtubeUrl: "https://www.youtube.com/watch?v=gDoV-NTwq-4",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/044_Surah_Al-Dokhan.pdf",
   },
   {
     id: 45,
@@ -508,7 +548,8 @@ const surahs: Surah[] = [
     totalAyats: 37,
     duration: "30:22",
     youtubeUrl: "https://www.youtube.com/watch?v=aWAd7Au3rUM",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/045_Surah_Al-Jathiah.pdf",
   },
   {
     id: 46,
@@ -519,7 +560,8 @@ const surahs: Surah[] = [
     totalAyats: 35,
     duration: "43:37",
     youtubeUrl: "https://www.youtube.com/watch?v=Q_6UqIoJSMU",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/046_Surah_Al-Ahqaf.pdf",
   },
   {
     id: 47,
@@ -530,7 +572,8 @@ const surahs: Surah[] = [
     totalAyats: 38,
     duration: "38:34",
     youtubeUrl: "https://www.youtube.com/watch?v=wcLgEEZ3Ggc",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/047_Surah_Mohammad.pdf",
   },
   {
     id: 48,
@@ -541,7 +584,8 @@ const surahs: Surah[] = [
     totalAyats: 29,
     duration: "54:46",
     youtubeUrl: "https://www.youtube.com/watch?v=IWwOLq9gXc4",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/048_Surah_Al-Fath.pdf",
   },
   {
     id: 49,
@@ -552,7 +596,8 @@ const surahs: Surah[] = [
     totalAyats: 18,
     duration: "38:16",
     youtubeUrl: "https://www.youtube.com/watch?v=Kn8H3wX16kA",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/049_Surah_Al-Hujurat.pdf",
   },
   {
     id: 50,
@@ -563,7 +608,8 @@ const surahs: Surah[] = [
     totalAyats: 45,
     duration: "43:41",
     youtubeUrl: "https://www.youtube.com/watch?v=swJXZZWvIkI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/050_Surah_Qaf.pdf",
   },
   {
     id: 51,
@@ -574,7 +620,8 @@ const surahs: Surah[] = [
     totalAyats: 60,
     duration: "23:46",
     youtubeUrl: "https://www.youtube.com/watch?v=iMyZncYArXI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/051_Surah_Al-Zariat.pdf",
   },
   {
     id: 52,
@@ -585,7 +632,8 @@ const surahs: Surah[] = [
     totalAyats: 49,
     duration: "24:14",
     youtubeUrl: "https://www.youtube.com/watch?v=J6yT0ZKAsMA",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/052_Surah_Al-Tur.pdf",
   },
   {
     id: 53,
@@ -596,7 +644,8 @@ const surahs: Surah[] = [
     totalAyats: 62,
     duration: "23:21",
     youtubeUrl: "https://www.youtube.com/watch?v=eEBpotTp_j8",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/053_Surah_Al-Najm.pdf",
   },
   {
     id: 54,
@@ -607,7 +656,8 @@ const surahs: Surah[] = [
     totalAyats: 55,
     duration: "27:47",
     youtubeUrl: "https://www.youtube.com/watch?v=uHHG-IbR54E",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/054_Surah_Al-Qamar.pdf",
   },
   {
     id: 55,
@@ -618,7 +668,8 @@ const surahs: Surah[] = [
     totalAyats: 78,
     duration: "41:52",
     youtubeUrl: "https://www.youtube.com/watch?v=mhOS4cngC5s",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/055_Surah%20Ar-Rahman.pdf",
   },
   {
     id: 56,
@@ -629,7 +680,8 @@ const surahs: Surah[] = [
     totalAyats: 96,
     duration: "41:41",
     youtubeUrl: "https://www.youtube.com/watch?v=BCKhfmWngxE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/056_Surah_Al-Waqiah.pdf",
   },
   {
     id: 57,
@@ -640,7 +692,8 @@ const surahs: Surah[] = [
     totalAyats: 29,
     duration: "1:47:26",
     youtubeUrl: "https://www.youtube.com/watch?v=EBWEdTEhFJY",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/057_Surah_Al-Hadid.pdf",
   },
   {
     id: 58,
@@ -651,7 +704,8 @@ const surahs: Surah[] = [
     totalAyats: 22,
     duration: "42:39",
     youtubeUrl: "https://www.youtube.com/watch?v=dsxxsU1Hk5k",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/058_Surah_Al-Mujadilah.pdf",
   },
   {
     id: 59,
@@ -662,7 +716,8 @@ const surahs: Surah[] = [
     totalAyats: 24,
     duration: "58:58",
     youtubeUrl: "https://www.youtube.com/watch?v=rmoiBJwLixE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/059_Surah_Al-Hashr.pdf",
   },
   {
     id: 60,
@@ -673,7 +728,8 @@ const surahs: Surah[] = [
     totalAyats: 13,
     duration: "30:09",
     youtubeUrl: "https://www.youtube.com/watch?v=SsyQzEB7W3Y",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/060_Surah_Al-Mumtahinah.pdf",
   },
   {
     id: 61,
@@ -684,7 +740,8 @@ const surahs: Surah[] = [
     totalAyats: 14,
     duration: "33:59",
     youtubeUrl: "https://www.youtube.com/watch?v=ncoIUi_Wzh4",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/061_Surah_As-Saff.pdf",
   },
   {
     id: 62,
@@ -695,7 +752,8 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "28:47",
     youtubeUrl: "https://www.youtube.com/watch?v=4IKacXNU6fI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/062_Surah_Al-Jumah.pdf",
   },
   {
     id: 63,
@@ -706,7 +764,8 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "28:14",
     youtubeUrl: "https://www.youtube.com/watch?v=Q5akIuFV_B4",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/063_Surah_Al-Munafiqoon.pdf",
   },
   {
     id: 64,
@@ -717,7 +776,8 @@ const surahs: Surah[] = [
     totalAyats: 18,
     duration: "33:53",
     youtubeUrl: "https://www.youtube.com/watch?v=uLGMyN9r1YQ",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/064_Surah_Al-Taghabun.pdf",
   },
   {
     id: 65,
@@ -728,7 +788,8 @@ const surahs: Surah[] = [
     totalAyats: 12,
     duration: "25:58",
     youtubeUrl: "https://www.youtube.com/watch?v=4GLQfQFiXWU",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/065_Surah_Al-Talaq.pdf",
   },
   {
     id: 66,
@@ -739,7 +800,8 @@ const surahs: Surah[] = [
     totalAyats: 12,
     duration: "27:33",
     youtubeUrl: "https://www.youtube.com/watch?v=hQgLqxox_2c",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/066_Surah_At-Tahrim.pdf",
   },
   {
     id: 67,
@@ -750,7 +812,8 @@ const surahs: Surah[] = [
     totalAyats: 30,
     duration: "21:51",
     youtubeUrl: "https://www.youtube.com/watch?v=Bi-fwtUXr1s",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/067_Surah_Al-Mulk.pdf",
   },
   {
     id: 68,
@@ -761,7 +824,8 @@ const surahs: Surah[] = [
     totalAyats: 52,
     duration: "25:23",
     youtubeUrl: "https://www.youtube.com/watch?v=7m5MPHO5uGY",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/068_Surah_Al-Qalam.pdf",
   },
   {
     id: 69,
@@ -772,7 +836,8 @@ const surahs: Surah[] = [
     totalAyats: 52,
     duration: "12:10",
     youtubeUrl: "https://www.youtube.com/watch?v=6ZMb9hVAQFc",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/069_Surah_Al-Haqqah.pdf",
   },
   {
     id: 70,
@@ -783,7 +848,8 @@ const surahs: Surah[] = [
     totalAyats: 44,
     duration: "18:24",
     youtubeUrl: "https://www.youtube.com/watch?v=0AWXj4koQGY",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/070_Surah_Al-Maarij.pdf",
   },
   {
     id: 71,
@@ -794,7 +860,8 @@ const surahs: Surah[] = [
     totalAyats: 28,
     duration: "14:57",
     youtubeUrl: "https://www.youtube.com/watch?v=YuqyY2XLcCg",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/071_Surah_Nuh.pdf",
   },
   {
     id: 72,
@@ -805,7 +872,8 @@ const surahs: Surah[] = [
     totalAyats: 28,
     duration: "20:39",
     youtubeUrl: "https://www.youtube.com/watch?v=nefn7qFlSNE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/072_Surah_Al-Jinn.pdf",
   },
   {
     id: 73,
@@ -816,7 +884,8 @@ const surahs: Surah[] = [
     totalAyats: 20,
     duration: "15:56",
     youtubeUrl: "https://www.youtube.com/watch?v=cp7a0uZuSPU",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/073_Surah_Al-Mozammil.pdf",
   },
   {
     id: 74,
@@ -827,7 +896,8 @@ const surahs: Surah[] = [
     totalAyats: 56,
     duration: "30:35",
     youtubeUrl: "https://www.youtube.com/watch?v=aDimMtFw4nM",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/074_Surah_Al-Mudaththir.pdf",
   },
   {
     id: 75,
@@ -838,7 +908,8 @@ const surahs: Surah[] = [
     totalAyats: 40,
     duration: "15:53",
     youtubeUrl: "https://www.youtube.com/watch?v=w18e1jTkhZU",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/075_Surah_Al-Qiyamah.pdf",
   },
   {
     id: 76,
@@ -849,7 +920,8 @@ const surahs: Surah[] = [
     totalAyats: 31,
     duration: "14:13",
     youtubeUrl: "https://www.youtube.com/watch?v=xkiOndjzeAs",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/076_Surah_Al-Dahr.pdf",
   },
   {
     id: 77,
@@ -860,7 +932,8 @@ const surahs: Surah[] = [
     totalAyats: 50,
     duration: "12:46",
     youtubeUrl: "https://www.youtube.com/watch?v=eUych4A9fJ0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/077_Surah_Al-Mursalat.pdf",
   },
   {
     id: 78,
@@ -871,7 +944,8 @@ const surahs: Surah[] = [
     totalAyats: 40,
     duration: "9:30",
     youtubeUrl: "https://www.youtube.com/watch?v=Znqm2BT6vEE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/078_Surah_Al-Naba.pdf",
   },
   {
     id: 79,
@@ -882,7 +956,8 @@ const surahs: Surah[] = [
     totalAyats: 46,
     duration: "16:32",
     youtubeUrl: "https://www.youtube.com/watch?v=RnEi2idTBgw",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/079_Surah_Al-Naziat.pdf",
   },
   {
     id: 80,
@@ -893,7 +968,8 @@ const surahs: Surah[] = [
     totalAyats: 42,
     duration: "16:06",
     youtubeUrl: "https://www.youtube.com/watch?v=ypq74UdFymY",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/080_Surah_Al-Abas.pdf",
   },
   {
     id: 81,
@@ -904,7 +980,8 @@ const surahs: Surah[] = [
     totalAyats: 29,
     duration: "13:17",
     youtubeUrl: "https://www.youtube.com/watch?v=SMLTcCD5OeY",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/081_Surah_Al-Takwir.pdf",
   },
   {
     id: 82,
@@ -915,7 +992,8 @@ const surahs: Surah[] = [
     totalAyats: 19,
     duration: "9:28",
     youtubeUrl: "https://www.youtube.com/watch?v=rTvsoHRgLFU",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/082_Surah_Al-Infitar.pdf",
   },
   {
     id: 83,
@@ -926,7 +1004,8 @@ const surahs: Surah[] = [
     totalAyats: 36,
     duration: "13:42",
     youtubeUrl: "https://www.youtube.com/watch?v=hfSEbpFXotM",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/083_Surah_Al-Mutaffifin.pdf",
   },
   {
     id: 84,
@@ -937,7 +1016,8 @@ const surahs: Surah[] = [
     totalAyats: 25,
     duration: "21:31",
     youtubeUrl: "https://www.youtube.com/watch?v=A8Umx_mqbfQ",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/084_Surah_Al-Inshiqaq.pdf",
   },
   {
     id: 85,
@@ -948,7 +1028,8 @@ const surahs: Surah[] = [
     totalAyats: 22,
     duration: "9:42",
     youtubeUrl: "https://www.youtube.com/watch?v=cm7bjeFQCbk",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/085_Surah_Al-Buruj.pdf",
   },
   {
     id: 86,
@@ -959,7 +1040,8 @@ const surahs: Surah[] = [
     totalAyats: 17,
     duration: "4:44",
     youtubeUrl: "https://www.youtube.com/watch?v=O_hc_MQOHNg",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/086_Surah_Al-Tariq.pdf",
   },
   {
     id: 87,
@@ -970,7 +1052,8 @@ const surahs: Surah[] = [
     totalAyats: 19,
     duration: "18:26",
     youtubeUrl: "https://www.youtube.com/watch?v=PeKhqvIP05I",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/087_Surah_Al-Ala.pdf",
   },
   {
     id: 88,
@@ -981,7 +1064,8 @@ const surahs: Surah[] = [
     totalAyats: 26,
     duration: "10:45",
     youtubeUrl: "https://www.youtube.com/watch?v=mLr2GAgXf5Q",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/088_Surah_Al-Ghashiyah.pdf",
   },
   {
     id: 89,
@@ -992,7 +1076,8 @@ const surahs: Surah[] = [
     totalAyats: 30,
     duration: "18:03",
     youtubeUrl: "https://www.youtube.com/watch?v=ZHhtiSsBVYg",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/089_Surah_Al-Fajr.pdf",
   },
   {
     id: 90,
@@ -1003,7 +1088,8 @@ const surahs: Surah[] = [
     totalAyats: 20,
     duration: "13:03",
     youtubeUrl: "https://www.youtube.com/watch?v=Ty6xPyLi3sk",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/090_Surah_Al-Balad.pdf",
   },
   {
     id: 91,
@@ -1014,7 +1100,8 @@ const surahs: Surah[] = [
     totalAyats: 15,
     duration: "15:04",
     youtubeUrl: "https://www.youtube.com/watch?v=83ud165uejs",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/091_Surah_Al-Shams.pdf",
   },
   {
     id: 92,
@@ -1025,7 +1112,8 @@ const surahs: Surah[] = [
     totalAyats: 21,
     duration: "20:21",
     youtubeUrl: "https://www.youtube.com/watch?v=GpiaeKTS8RM",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/092_Surah_Al-Lail.pdf",
   },
   {
     id: 93,
@@ -1036,7 +1124,8 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "11:23",
     youtubeUrl: "https://www.youtube.com/watch?v=-2l7a6N9Ve4",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/093_Surah_Al-Duha.pdf",
   },
   {
     id: 94,
@@ -1047,7 +1136,8 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "9:35",
     youtubeUrl: "https://www.youtube.com/watch?v=48Y-1LmNQfI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/094_Surah_Al-Inshirah.pdf",
   },
   {
     id: 95,
@@ -1058,7 +1148,8 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "6:38",
     youtubeUrl: "https://www.youtube.com/watch?v=sEiRS6fKoSk",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/095_Surah_Al-Tin.pdf",
   },
   {
     id: 96,
@@ -1069,7 +1160,8 @@ const surahs: Surah[] = [
     totalAyats: 19,
     duration: "13:01",
     youtubeUrl: "https://www.youtube.com/watch?v=qnV9eB00IOo",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/096_Surah_Al-Alaq.pdf",
   },
   {
     id: 97,
@@ -1080,7 +1172,8 @@ const surahs: Surah[] = [
     totalAyats: 5,
     duration: "3:45",
     youtubeUrl: "https://www.youtube.com/watch?v=pCEeQFIxAIw",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/097_Surah_Al-Qadr.pdf",
   },
   {
     id: 98,
@@ -1091,7 +1184,8 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "9:37",
     youtubeUrl: "https://www.youtube.com/watch?v=CQFCnWmJmtE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/098_Surah_Al-Bayyinah.pdf",
   },
   {
     id: 99,
@@ -1102,7 +1196,8 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "5:22",
     youtubeUrl: "https://www.youtube.com/watch?v=84JrV_usez0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/099_Surah_Al-Zilzal.pdf",
   },
   {
     id: 100,
@@ -1113,7 +1208,8 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "5:21",
     youtubeUrl: "https://www.youtube.com/watch?v=9zUYx-54KSI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/100_Surah_Al-Adiyat.pdf",
   },
   {
     id: 101,
@@ -1124,7 +1220,8 @@ const surahs: Surah[] = [
     totalAyats: 11,
     duration: "3:03",
     youtubeUrl: "https://www.youtube.com/watch?v=uTNz_utO8nI",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/101_Surah_Al-Qariah.pdf",
   },
   {
     id: 102,
@@ -1135,7 +1232,8 @@ const surahs: Surah[] = [
     totalAyats: 8,
     duration: "4:26",
     youtubeUrl: "https://www.youtube.com/watch?v=HPZruubeD6k",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/102_Surah_Al-Takatur.pdf",
   },
   {
     id: 103,
@@ -1146,7 +1244,8 @@ const surahs: Surah[] = [
     totalAyats: 3,
     duration: "3:29",
     youtubeUrl: "https://www.youtube.com/watch?v=kvzdyKT7phk",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/103_Surah_Al-Asr.pdf",
   },
   {
     id: 104,
@@ -1157,7 +1256,8 @@ const surahs: Surah[] = [
     totalAyats: 9,
     duration: "6:05",
     youtubeUrl: "https://www.youtube.com/watch?v=dSsJ0oCOhR8",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/104_Surah_Al-Humazah.pdf",
   },
   {
     id: 105,
@@ -1168,7 +1268,8 @@ const surahs: Surah[] = [
     totalAyats: 5,
     duration: "3:52",
     youtubeUrl: "https://www.youtube.com/watch?v=7GuqkBfjen0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/105_Surah_Al-Fil.pdf",
   },
   {
     id: 106,
@@ -1179,7 +1280,8 @@ const surahs: Surah[] = [
     totalAyats: 4,
     duration: "4:39",
     youtubeUrl: "https://www.youtube.com/watch?v=4j4P520Kous",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/106_Surah_Al-Quraish.pdf",
   },
   {
     id: 107,
@@ -1190,7 +1292,8 @@ const surahs: Surah[] = [
     totalAyats: 7,
     duration: "4:36",
     youtubeUrl: "https://www.youtube.com/watch?v=5xk9X832Vqo",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/107_Surah_Al-Maun.pdf",
   },
   {
     id: 108,
@@ -1201,7 +1304,8 @@ const surahs: Surah[] = [
     totalAyats: 3,
     duration: "3:28",
     youtubeUrl: "https://www.youtube.com/watch?v=7UPzG-uTgYY",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/108_Surah_Al-Kausar.pdf",
   },
   {
     id: 109,
@@ -1212,7 +1316,8 @@ const surahs: Surah[] = [
     totalAyats: 6,
     duration: "2:41",
     youtubeUrl: "https://www.youtube.com/watch?v=QLAv3-U3TY0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/109_Surah_Al-Kafirun.pdf",
   },
   {
     id: 110,
@@ -1223,7 +1328,8 @@ const surahs: Surah[] = [
     totalAyats: 3,
     duration: "2:53",
     youtubeUrl: "https://www.youtube.com/watch?v=oYfbf3sxxGw",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/110_Surah_An-Nasar.pdf",
   },
   {
     id: 111,
@@ -1234,7 +1340,8 @@ const surahs: Surah[] = [
     totalAyats: 5,
     duration: "6:10",
     youtubeUrl: "https://www.youtube.com/watch?v=HmCnrDuv1m0",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/111_Surah_Al-Lahab.pdf",
   },
   {
     id: 112,
@@ -1245,7 +1352,8 @@ const surahs: Surah[] = [
     totalAyats: 4,
     duration: "3:47",
     youtubeUrl: "https://www.youtube.com/watch?v=FZsr1xtgj0k",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/112_Surah_Al-Ikhlas.pdf",
   },
   {
     id: 113,
@@ -1256,7 +1364,8 @@ const surahs: Surah[] = [
     totalAyats: 5,
     duration: "8:14",
     youtubeUrl: "https://www.youtube.com/watch?v=uaItRZob6Zg",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/113_Surah_Al-Falaq.pdf",
   },
   {
     id: 114,
@@ -1267,7 +1376,8 @@ const surahs: Surah[] = [
     totalAyats: 6,
     duration: "5:46",
     youtubeUrl: "https://www.youtube.com/watch?v=UjLZLt3A6OE",
-    pdfUrl: "#",
+    pdfUrl:
+      "https://quranurdu.com/Tafheem-ul-Quran%20by%20Syed%20Moududi_eBook/114_Surah_Al-Nas.pdf",
   },
 ];
 
