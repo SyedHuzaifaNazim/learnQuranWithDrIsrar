@@ -13,6 +13,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
+import SearchInput from "@/components/ui/SearchInput";
 
 const Quran = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -151,21 +152,10 @@ const Quran = () => {
               </p>
             </div>
 
-            {/* Search Bar */}
-            <div className="max-w-xl mx-auto mb-10">
-              <div className="relative">
-                {/* <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <MagnifyingGlassIcon className="h-5 w-5 text-foreground/50" />
-                </div> */}
-                <input
-                  type="text"
-                  className="block w-full pl-10 pr-4 py-3 bg-secondary/50 dark:bg-white/5 backdrop-blur-sm border border-border rounded-lg focus:ring-2 focus:ring-islamic-gold/30 focus:border-islamic-gold/30 focus:outline-none transition-all font-arabic"
-                  placeholder="Search by Surah number or name..."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                />
-              </div>
-            </div>
+            <SearchInput
+              searchTerm={searchTerm}
+              setSearchTerm={setSearchTerm}
+            />
 
             {/* Surah Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

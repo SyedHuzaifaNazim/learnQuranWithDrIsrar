@@ -100,7 +100,7 @@ const Footer = () => {
               Contact
             </h3>
             <p className="text-sm text-foreground/80">
-              For inquiries and feedback, please reach out to us.
+              For inquiries and feedback, please reach out to me.
             </p>
             <div className="text-sm text-foreground/80">
               <p>Email: devaziznaseer1@gmail.com</p>
