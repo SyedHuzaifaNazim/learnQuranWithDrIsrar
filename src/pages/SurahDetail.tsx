@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
 import { FileText, ChevronLeft, ChevronRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -14,6 +14,7 @@ const SurahDetail = () => {
   const [suggestedSurahs, setSuggestedSurahs] = useState<typeof surahs>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [youtubeId, setYoutubeId] = useState("");
+  const iframeRef = useRef(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -26,32 +27,38 @@ const SurahDetail = () => {
       if (surah) {
         setCurrentSurah(surah);
 
-        // Extract YouTube ID from URL
         const youtubeUrlParams = new URL(surah.youtubeUrl).searchParams;
         const extractedYoutubeId = youtubeUrlParams.get("v");
         if (extractedYoutubeId) {
           setYoutubeId(extractedYoutubeId);
         }
 
-        // Get suggested surahs (next and previous)
         const suggested = surahs
           .filter((s) => s.id !== surahId)
-          .sort((a, b) => {
-            // Sort by proximity to current surah
-            return Math.abs(a.id - surahId) - Math.abs(b.id - surahId);
-          })
+          .sort((a, b) => Math.abs(a.id - surahId) - Math.abs(b.id - surahId))
           .slice(0, 4);
 
         setSuggestedSurahs(suggested);
       }
     }
 
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(timer);
+    setTimeout(() => setIsLoading(false), 1000);
   }, [id]);
+
+  const handleFullscreen = () => {
+    if (window.innerWidth < 1024 && iframeRef.current) {
+      const iframe = iframeRef.current;
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      }
+    }
+  };
 
   const getPreviousSurah = () => {
     if (!currentSurah) return null;
@@ -117,8 +124,12 @@ const SurahDetail = () => {
                         </h2>
                       </div>
 
-                      <div className="aspect-video w-full overflow-hidden rounded-lg">
+                      <div
+                        className="aspect-video w-full overflow-hidden rounded-lg"
+                        onClick={handleFullscreen}
+                      >
                         <iframe
+                          ref={iframeRef}
                           src={`https://www.youtube.com/embed/${youtubeId}`}
                           title={`Surah ${currentSurah.nameEnglish} - Dr. Israr Ahmed`}
                           className="w-full h-full"
