@@ -144,7 +144,7 @@ const SurahDetail = () => {
                         <div className="flex justify-between items-center mb-4">
                           <h3 className="text-xl font-semibold">Overview</h3>
                           <motion.button
-                            className="px-4 py-2 bg-islamic-navy/10 dark:bg-white/10 text-islamic-navy dark:text-white rounded-lg"
+                            className="px-4 py-2 bg-islamic-navy/10 dark:bg-gray-800/80 text-islamic-navy dark:text-white rounded-lg"
                             onClick={() => setLanguageToggle((prev) => !prev)}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
@@ -171,7 +171,7 @@ const SurahDetail = () => {
                               className="inline-flex items-center text-islamic-navy dark:text-white hover:text-islamic-gold dark:hover:text-islamic-gold transition-colors"
                             >
                               <ChevronLeft className="h-5 w-5 mr-1" />
-                              <span className="text-[10px] sm:text-base">
+                              <span className="text-[15px] sm:text-base">
                                 Previous: Surah {previousSurah.nameEnglish}
                               </span>
                             </Link>
@@ -184,7 +184,7 @@ const SurahDetail = () => {
                               to={`/surah/${nextSurah.id}`}
                               className="inline-flex items-center text-islamic-navy dark:text-white hover:text-islamic-gold dark:hover:text-islamic-gold transition-colors"
                             >
-                              <span className="text-[10px] sm:text-base">
+                              <span className="text-[15px] sm:text-base">
                                 Next: Surah {nextSurah.nameEnglish}
                               </span>
                               <ChevronRight className="h-5 w-5 ml-1" />
