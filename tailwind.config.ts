@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -119,10 +118,10 @@ export default {
         shimmer: "shimmer 2s infinite linear",
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
-        serif: ["Scheherazade New", "Playfair Display", "serif"],
-        arabic: ["Amiri", "Noto Sans Arabic", "serif"],
-        decorative: ["Scheherazade New", "serif"],
+        sans: ["Roboto"],
+        serif: ["Roboto"],
+        arabic: ["Roboto"],
+        decorative: ["Roboto"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

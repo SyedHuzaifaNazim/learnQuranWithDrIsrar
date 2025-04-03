@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import QuranCard from "@/components/QuranCard";
 import surahs from "@/data/surahs";
+import { motion } from "framer-motion";
 
 const SurahDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -14,6 +15,7 @@ const SurahDetail = () => {
   const [suggestedSurahs, setSuggestedSurahs] = useState<typeof surahs>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [youtubeId, setYoutubeId] = useState("");
+  const [languageToggle, setLanguageToggle] = useState(true);
   const iframeRef = useRef(null);
 
   useEffect(() => {
@@ -139,14 +141,37 @@ const SurahDetail = () => {
                       </div>
 
                       <div className="mt-6 border-t border-border/50 pt-6">
-                        <div className="flex justify-between">
+                        <div className="flex justify-between items-center mb-4">
+                          <h3 className="text-xl font-semibold">Overview</h3>
+                          <motion.button
+                            className="px-4 py-2 bg-islamic-navy/10 dark:bg-white/10 text-islamic-navy dark:text-white rounded-lg"
+                            onClick={() => setLanguageToggle((prev) => !prev)}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 0.3 }}
+                          >
+                            {languageToggle
+                              ? "Switch to Urdu"
+                              : "Switch to English"}
+                          </motion.button>
+                        </div>
+
+                        <p className="text-foreground/70">
+                          {languageToggle
+                            ? currentSurah?.englishDescription
+                            : currentSurah?.urduDescription}
+                        </p>
+                      </div>
+
+                      <div className="mt-6 border-t border-border/50 pt-6">
+                        <div className="flex justify-between gap-2">
                           {previousSurah ? (
                             <Link
                               to={`/surah/${previousSurah.id}`}
                               className="inline-flex items-center text-islamic-navy dark:text-white hover:text-islamic-gold dark:hover:text-islamic-gold transition-colors"
                             >
                               <ChevronLeft className="h-5 w-5 mr-1" />
-                              <span>
+                              <span className="text-[10px] sm:text-base">
                                 Previous: Surah {previousSurah.nameEnglish}
                               </span>
                             </Link>
@@ -159,7 +184,9 @@ const SurahDetail = () => {
                               to={`/surah/${nextSurah.id}`}
                               className="inline-flex items-center text-islamic-navy dark:text-white hover:text-islamic-gold dark:hover:text-islamic-gold transition-colors"
                             >
-                              <span>Next: Surah {nextSurah.nameEnglish}</span>
+                              <span className="text-[10px] sm:text-base">
+                                Next: Surah {nextSurah.nameEnglish}
+                              </span>
                               <ChevronRight className="h-5 w-5 ml-1" />
                             </Link>
                           ) : (
