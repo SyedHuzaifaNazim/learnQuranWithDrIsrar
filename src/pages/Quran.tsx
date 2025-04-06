@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Search } from "lucide-react";
+import { Clock } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import QuranCard from "@/components/QuranCard";
@@ -20,6 +21,10 @@ const Quran = () => {
   const [filteredSurahs, setFilteredSurahs] = useState(surahs);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
+  const [lastSeenData, setLastSeenData] = useState<{
+    surahNumber: number;
+    time: number;
+  } | null>(null);
   const surahsPerPage = 16;
 
   useEffect(() => {
@@ -30,6 +35,28 @@ const Quran = () => {
 
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    // Check for any lastSeen- keys in localStorage
+    for (let i = 1; i <= 114; i++) {
+      const key = `lastSeen-${i}`;
+      const value = localStorage.getItem(key);
+      if (value) {
+        setLastSeenData({ surahNumber: i, time: parseFloat(value) });
+        break; // Only show the most recent one found
+      }
+    }
+  }, []);
+
+  // Time formatter function
+  const formatTime = (seconds: number) => {
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = Math.floor(seconds % 60);
+    return `${h > 0 ? h + ":" : ""}${m.toString().padStart(2, "0")}:${s
+      .toString()
+      .padStart(2, "0")}`;
+  };
 
   useEffect(() => {
     if (searchTerm.trim() === "") {
@@ -156,6 +183,37 @@ const Quran = () => {
               searchTerm={searchTerm}
               setSearchTerm={setSearchTerm}
             />
+
+            {/* Last Seen Section */}
+            {lastSeenData && (
+              <div className="mb-8">
+                <h2 className="text-xl font-semibold text-foreground mb-4">
+                  Last Seen
+                </h2>
+                <div className="bg-secondary/70 dark:bg-white/5 border border-border rounded-xl p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                  <div>
+                    <p className="text-lg font-bold text-islamic-gold mb-1">
+                      Surah {lastSeenData.surahNumber} -{" "}
+                      {
+                        surahs.find(
+                          (s) => s.surahNumber === lastSeenData.surahNumber
+                        )?.nameEnglish
+                      }
+                    </p>
+                    <p className="text-sm text-foreground/70 flex items-center gap-2">
+                      <Clock className="w-4 h-4" />
+                      Last watched at {formatTime(lastSeenData.time)}
+                    </p>
+                  </div>
+                  <a
+                    href={`/surah/${lastSeenData.surahNumber}`}
+                    className="bg-islamic-navy text-white px-4 py-2 rounded-xl text-sm font-medium hover:bg-islamic-navy/90 transition w-max mx-auto sm:mx-0"
+                  >
+                    Resume
+                  </a>
+                </div>
+              </div>
+            )}
 
             {/* Surah Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

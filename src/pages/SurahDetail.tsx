@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import QuranCard from "@/components/QuranCard";
 import surahs from "@/data/surahs";
 import { motion } from "framer-motion";
+import YouTube from "react-youtube";
+import { YouTubePlayer } from "react-youtube";
 
 const SurahDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -17,6 +19,8 @@ const SurahDetail = () => {
   const [youtubeId, setYoutubeId] = useState("");
   const [languageToggle, setLanguageToggle] = useState(true);
   const iframeRef = useRef(null);
+  const playerRef = useRef(null);
+  const [lastSeenTime, setLastSeenTime] = useState<number>(0);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -33,6 +37,18 @@ const SurahDetail = () => {
         const extractedYoutubeId = youtubeUrlParams.get("v");
         if (extractedYoutubeId) {
           setYoutubeId(extractedYoutubeId);
+        }
+
+        Object.keys(localStorage).forEach((key) => {
+          const isCurrentSurahKey = key === `lastSeen-${surah.surahNumber}`;
+          if (key.startsWith("lastSeen-") && !isCurrentSurahKey) {
+            localStorage.removeItem(key);
+          }
+        });
+
+        const lastTime = localStorage.getItem(`lastSeen-${surah.surahNumber}`);
+        if (lastTime) {
+          setLastSeenTime(parseFloat(lastTime));
         }
 
         const suggested = surahs
@@ -72,8 +88,39 @@ const SurahDetail = () => {
     return surahs.find((s) => s.surahNumber === currentSurah.surahNumber + 1);
   };
 
+  const handlePlayerReady = (event: { target: YouTubePlayer }) => {
+    playerRef.current = event.target;
+
+    // Check if current time is valid and matches current Surah number
+    const currentSurahNumber = currentSurah?.surahNumber;
+    const savedTime = localStorage.getItem(`lastSeen-${currentSurahNumber}`);
+
+    if (savedTime && parseFloat(savedTime) > 0) {
+      // Seek to the saved timestamp
+      event.target.seekTo(parseFloat(savedTime), true);
+    }
+  };
+
   const previousSurah = getPreviousSurah();
   const nextSurah = getNextSurah();
+
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      if (playerRef.current && currentSurah) {
+        const currentTime = playerRef.current.getCurrentTime();
+        localStorage.setItem(
+          `lastSeen-${currentSurah.surahNumber}`,
+          currentTime.toFixed(2)
+        );
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => {
+      handleBeforeUnload();
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, [currentSurah]);
 
   return (
     <>
@@ -130,14 +177,28 @@ const SurahDetail = () => {
                         className="aspect-video w-full overflow-hidden rounded-lg"
                         onClick={handleFullscreen}
                       >
-                        <iframe
+                        <YouTube
+                          videoId={youtubeId}
+                          opts={{
+                            width: "100%",
+                            height: "450",
+                            playerVars: {
+                              autoplay: 0,
+                              controls: 1,
+                              modestbranding: 1,
+                            },
+                          }}
+                          onReady={handlePlayerReady}
+                        />
+
+                        {/* <iframe
                           ref={iframeRef}
                           src={`https://www.youtube.com/embed/${youtubeId}`}
                           title={`Surah ${currentSurah.nameEnglish} - Dr. Israr Ahmed`}
                           className="w-full h-full"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen={true}
-                        ></iframe>
+                        ></iframe> */}
                       </div>
 
                       <div className="mt-6 border-t border-border/50 pt-6">
