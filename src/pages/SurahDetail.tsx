@@ -101,8 +101,13 @@ const SurahDetail = () => {
     }
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const previousSurah = getPreviousSurah();
   const nextSurah = getNextSurah();
+  const isMobile = window.innerWidth <= 500;
 
   useEffect(() => {
     const handleBeforeUnload = () => {
@@ -177,7 +182,32 @@ const SurahDetail = () => {
                         className="aspect-video w-full overflow-hidden rounded-lg"
                         onClick={handleFullscreen}
                       >
-                        <YouTube
+                        {isMobile ? (
+                          <iframe
+                            ref={iframeRef}
+                            src={`https://www.youtube.com/embed/${youtubeId}`}
+                            title={`Surah ${currentSurah.nameEnglish} - Dr. Israr Ahmed`}
+                            className="w-full aspect-video rounded-lg"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          ></iframe>
+                        ) : (
+                          <YouTube
+                            videoId={youtubeId}
+                            opts={{
+                              width: "100%",
+                              height: "450",
+                              playerVars: {
+                                autoplay: 0,
+                                controls: 1,
+                                modestbranding: 1,
+                              },
+                            }}
+                            onReady={handlePlayerReady}
+                          />
+                        )}
+
+                        {/* <YouTube
                           videoId={youtubeId}
                           opts={{
                             width: "100%",
@@ -189,7 +219,7 @@ const SurahDetail = () => {
                             },
                           }}
                           onReady={handlePlayerReady}
-                        />
+                        /> */}
 
                         {/* <iframe
                           ref={iframeRef}

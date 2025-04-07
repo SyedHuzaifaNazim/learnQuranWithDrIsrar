@@ -76,14 +76,6 @@ const Footer = () => {
                   Books
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/dua"
-                  className="text-sm text-foreground/80 hover:text-islamic-gold transition-colors"
-                >
-                  Dua
-                </Link>
-              </li>
             </ul>
           </div>
 

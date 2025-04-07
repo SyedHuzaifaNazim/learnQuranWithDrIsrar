@@ -48,6 +48,10 @@ const Quran = () => {
     }
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Time formatter function
   const formatTime = (seconds: number) => {
     const h = Math.floor(seconds / 3600);
