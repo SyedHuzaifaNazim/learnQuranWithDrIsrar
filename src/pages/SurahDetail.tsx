@@ -182,7 +182,23 @@ const SurahDetail = () => {
                         className="aspect-video w-full overflow-hidden rounded-lg"
                         onClick={handleFullscreen}
                       >
-                        {isMobile ? (
+                        <YouTube
+                          videoId={youtubeId}
+                          opts={{
+                            width: "100%",
+                            height: "450",
+                            playerVars: {
+                              autoplay: 0,
+                              controls: 1,
+                              modestbranding: 1,
+                              fullscreen: 1,
+                            },
+                          }}
+                          onReady={handlePlayerReady}
+                          className="rounded-lg"
+                        />
+
+                        {/* {isMobile ? (
                           <iframe
                             ref={iframeRef}
                             src={`https://www.youtube.com/embed/${youtubeId}?playsinline=1`}
@@ -190,6 +206,7 @@ const SurahDetail = () => {
                             className="w-full aspect-video rounded-lg"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                             allowFullScreen={true}
+                            frameBorder="0"
                           />
                         ) : (
                           <YouTube
@@ -205,30 +222,7 @@ const SurahDetail = () => {
                             }}
                             onReady={handlePlayerReady}
                           />
-                        )}
-
-                        {/* <YouTube
-                          videoId={youtubeId}
-                          opts={{
-                            width: "100%",
-                            height: "450",
-                            playerVars: {
-                              autoplay: 0,
-                              controls: 1,
-                              modestbranding: 1,
-                            },
-                          }}
-                          onReady={handlePlayerReady}
-                        /> */}
-
-                        {/* <iframe
-                          ref={iframeRef}
-                          src={`https://www.youtube.com/embed/${youtubeId}`}
-                          title={`Surah ${currentSurah.nameEnglish} - Dr. Israr Ahmed`}
-                          className="w-full h-full"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen={true}
-                        ></iframe> */}
+                        )} */}
                       </div>
 
                       <div className="mt-6 border-t border-border/50 pt-6">
