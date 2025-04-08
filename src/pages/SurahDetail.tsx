@@ -179,37 +179,10 @@ const SurahDetail = () => {
                       </div>
 
                       <div
-                        className="aspect-video w-full overflow-hidden rounded-lg flex justify-center items-center"
-                        style={{
-                          maxWidth: "100%",
-                          margin: "0 auto",
-                          padding: "10px", // Adding padding for better appearance on mobile
-                        }}
-                        onClick={handleFullscreen}
-                      >
-                        <YouTube
-                          videoId={youtubeId}
-                          opts={{
-                            width: "100%",
-                            height: "auto", // Set height to auto to maintain aspect ratio
-                            playerVars: {
-                              autoplay: 0,
-                              controls: 1,
-                              modestbranding: 1,
-                              fs: 1, // Ensure fullscreen option is available
-                              playsinline: 1, // Ensures inline playback without forcing fullscreen
-                            },
-                          }}
-                          onReady={handlePlayerReady}
-                          className="rounded-lg"
-                        />
-                      </div>
-
-                      {/* <div
                         className="aspect-video w-full overflow-hidden rounded-lg"
                         onClick={handleFullscreen}
                       >
-                        <YouTube
+                        {/* <YouTube
                           videoId={youtubeId}
                           opts={{
                             width: "100%",
@@ -223,7 +196,7 @@ const SurahDetail = () => {
                           }}
                           onReady={handlePlayerReady}
                           className="rounded-lg"
-                        />
+                        /> */}
 
                         {isMobile ? (
                           <iframe
@@ -250,7 +223,7 @@ const SurahDetail = () => {
                             onReady={handlePlayerReady}
                           />
                         )}
-                      </div> */}
+                      </div>
 
                       <div className="mt-6 border-t border-border/50 pt-6">
                         <div className="flex justify-between items-center mb-4">
