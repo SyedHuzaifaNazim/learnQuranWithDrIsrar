@@ -185,12 +185,12 @@ const SurahDetail = () => {
                         {isMobile ? (
                           <iframe
                             ref={iframeRef}
-                            src={`https://www.youtube.com/embed/${youtubeId}`}
-                            title={`Surah ${currentSurah.nameEnglish} - Dr. Israr Ahmed`}
+                            src={`https://www.youtube.com/embed/${youtubeId}?playsinline=1`}
+                            title={`Surah ${currentSurah?.nameEnglish} - Dr. Israr Ahmed`}
                             className="w-full aspect-video rounded-lg"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                          ></iframe>
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                            allowFullScreen={true}
+                          />
                         ) : (
                           <YouTube
                             videoId={youtubeId}

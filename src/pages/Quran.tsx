@@ -36,15 +36,39 @@ const Quran = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  // useEffect(() => {
+  //   for (let i = 1; i <= 114; i++) {
+  //     const key = `lastSeen-${i}`;
+  //     const value = localStorage.getItem(key);
+  //     if (value) {
+  //       setLastSeenData({ surahNumber: i, time: parseFloat(value) });
+  //       break;
+  //     }
+  //   }
+  // }, []);
+
   useEffect(() => {
-    // Check for any lastSeen- keys in localStorage
+    const lastSeenEntries: { surahNumber: number; time: number }[] = [];
+
     for (let i = 1; i <= 114; i++) {
       const key = `lastSeen-${i}`;
       const value = localStorage.getItem(key);
       if (value) {
-        setLastSeenData({ surahNumber: i, time: parseFloat(value) });
-        break; // Only show the most recent one found
+        lastSeenEntries.push({ surahNumber: i, time: parseFloat(value) });
       }
+    }
+
+    if (lastSeenEntries.length > 1) {
+      // Remove the first one
+      const toRemove = lastSeenEntries[0];
+      localStorage.removeItem(`lastSeen-${toRemove.surahNumber}`);
+
+      // Set the second one as lastSeenData
+      const second = lastSeenEntries[1];
+      setLastSeenData(second);
+    } else if (lastSeenEntries.length === 1) {
+      // Only one entry, set it as is
+      setLastSeenData(lastSeenEntries[0]);
     }
   }, []);
 
