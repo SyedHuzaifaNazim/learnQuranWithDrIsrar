@@ -19,11 +19,11 @@ To run the project locally, follow these steps:
 
    ```bash
    git clone <repository-url>
-   ```bash
+
    cd <project-folder>
-   ```bash
+
    npm install
-   ```bash
+
    npm run dev
 
 ## Contributing
