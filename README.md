@@ -1,4 +1,4 @@
-# Dr. Israr Ahmed Lectures Web App
+# Learn Quran With Dr Israr
 
 ## Purpose
 
