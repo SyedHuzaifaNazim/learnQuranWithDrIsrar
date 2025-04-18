@@ -19,9 +19,12 @@ To run the project locally, follow these steps:
 
    ```bash
    git clone <repository-url>
-cd <project-folder>
-npm install
-npm run dev
+   ```bash
+   cd <project-folder>
+   ```bash
+   npm install
+   ```bash
+   npm run dev
 
 ## Contributing
 
