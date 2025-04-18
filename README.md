@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This web app is designed for people who want to listen to the lectures of Dr. Israr Ahmed in Urdu. It provides an easy-to-use interface to access and listen to his lectures online.
+This web app is for those who want to understand the true message of the Qur'an in their native Urdu, through the insightful lectures of Dr. Israr Ahmed. It offers a simple and user-friendly interface to access and listen to his lectures online.
 
 ## Tech Stack
 
