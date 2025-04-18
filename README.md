@@ -1,4 +1,4 @@
-# Learn Quran With Dr Israr
+# Learn Quran With Dr Israr Ahmed
 
 ## Purpose
 
